@@ -1,2 +1,6 @@
 # take-unity-in-my-stride
- unity study
+ Study with unity Projects
+ 
+ 1. Driving
+ 2. Flying air plane
+ 3. (Top down) Animal Game
