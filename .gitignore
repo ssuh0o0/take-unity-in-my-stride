@@ -149,4 +149,4 @@ ProjectVersion.txt
  
 # ============ #
 
-[Ll]ogs/*.log
+/[Ll]ogs/*.log
