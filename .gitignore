@@ -142,3 +142,11 @@ GraphicsSettings.asset
 ProjectSettings.asset
  
 ProjectVersion.txt
+
+# ============ #
+ 
+# Log file #
+ 
+# ============ #
+
+.log
