@@ -3,10 +3,10 @@
  
  
  ### unity-Learn
- 1. Driving                    [Prototype 1]
- 2. Flying air plane           [Challenge 1]
- 3. Random Aniaml Top Down     [Prototype 2]
- 4. Random Aniaml Top Down     [Challenge 2]
- 5. Hurdle Game                [Prototype 3]
- 6. Balloon Game               [Challenge 3]
- 7. Hit the Ball               [Prototype 4]
+ 1. [Prototype 1] Driving                    
+ 2. [Challenge 1] Flying air plane           
+ 3. [Prototype 2] Random Aniaml Top Down     
+ 4. [Challenge 2] Random Aniaml Top Down     
+ 5. [Prototype 3] Hurdle Game                
+ 6. [Challenge 3] Balloon Game               
+ 7. [Prototype 4] Hit the Ball               
