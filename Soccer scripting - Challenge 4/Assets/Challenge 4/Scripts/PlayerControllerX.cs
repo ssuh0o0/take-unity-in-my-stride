@@ -8,6 +8,9 @@ public class PlayerControllerX : MonoBehaviour
     private float speed = 500;
     private GameObject focalPoint;
 
+    private float boostSpeed = 20;
+
+    public ParticleSystem boostParticle;
     public bool hasPowerup;
     public GameObject powerupIndicator;
     public int powerUpDuration = 5;
@@ -32,7 +35,8 @@ public class PlayerControllerX : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            
+            playerRb.AddForce(focalPoint.transform.forward * verticalInput * boostSpeed, ForceMode.Impulse); 
+            boostParticle.Play();
         }
 
     }
