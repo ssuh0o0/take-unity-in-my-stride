@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
-
+using System.Collections.Generic;
 public class CongratScript : MonoBehaviour
 {
     public TextMesh Text;
@@ -9,17 +9,19 @@ public class CongratScript : MonoBehaviour
     private List<string> TextToDisplay;
     
     private float RotatingSpeed;
-    private float TimeToNextText;
+    private float TimeToNextText = 0.0f;
 
-    private int CurrentText;
+    private int CurrentText = 0;
     
     // Start is called before the first frame update
     void Start()
     {
         TimeToNextText = 0.0f;
-        CurrentText = 0
+        CurrentText = 0;
         
-        RotatingSpeed = 1.0;
+        RotatingSpeed = 1.0f;
+        TextToDisplay = new List<string>();
+
 
         TextToDisplay.Add("Congratulation");
         TextToDisplay.Add("All Errors Fixed");
@@ -43,7 +45,7 @@ public class CongratScript : MonoBehaviour
             {
                 CurrentText = 0;
 
-
+            }
             Text.text = TextToDisplay[CurrentText];
         }
     }
