@@ -24,9 +24,13 @@ public abstract class Unit : MonoBehaviour,
         m_Agent.angularSpeed = 999;
     }
 
-    private void Start()
+    //지게차에 색상을 설정하기 위해 작성한 방법.
+    private void Start() 
     {
-
+        if (MainManager.Instance != null)
+        {
+            SetColor(MainManager.Instance.TeamColor);
+        }
     }
 
     void SetColor(Color c)

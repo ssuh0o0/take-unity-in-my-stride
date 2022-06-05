@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class MainManager : MonoBehaviour
 {
+    // 싱글톤 패턴 
     public static MainManager Instance;
+
+    public Color TeamColor;
 
     private void Awake()
     {
@@ -16,5 +19,10 @@ public class MainManager : MonoBehaviour
 
         Instance = this;
         DontDestroyOnLoad(gameObject);
+    }
+
+    public void NewColorSelected(Color color)
+    {
+        MainManager.Instance.TeamColor = color;
     }
 }
