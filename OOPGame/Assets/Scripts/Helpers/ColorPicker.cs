@@ -24,6 +24,7 @@ public class ColorPicker : MonoBehaviour
             newButton.onClick.AddListener(() =>
             {
                 SelectedColor = color;
+
                 foreach (var button in m_ColorButtons)
                 {
                     button.interactable = true;
